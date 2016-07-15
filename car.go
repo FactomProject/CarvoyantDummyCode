@@ -64,4 +64,5 @@ func main() {
 	entry.Content = contentHash[:]
 
 	factom.CommitEntry(entry, ec)
+	factom.RevealEntry(entry)
 }
